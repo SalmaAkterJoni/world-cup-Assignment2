@@ -1,14 +1,14 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
+/*--------------
+    container
+----------------*/
+
 .container {
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-
     width: 100%;
     height: 100%;
     background-color: white;
@@ -16,11 +16,10 @@ body {
     grid-template-columns: 80%;
     gap: 80px;
     justify-content: center;
-
 }
 
 /*--------------
-    banner
+    banner/header
 ----------------*/
 
 .banner {
@@ -31,7 +30,6 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-
 }
 
 .banner-info {
@@ -39,12 +37,11 @@ body {
     height: 424px;
     padding-left: 70px;
     padding-top: 30px;
-
 }
 
 .banner-heading {
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 700;
 }
 
@@ -63,7 +60,6 @@ body {
     border-radius: 5%;
     background-image: linear-gradient(rgb(228, 76, 16), rgb(255, 16, 16));
     color: white;
-
 }
 
 .banner-image {
@@ -79,8 +75,6 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
-    /* display: grid;
-    grid-template-columns: 20% 80%; */
     gap: 20px;
     justify-content: center;
     width: 100%;
@@ -91,7 +85,6 @@ body {
 /*------------------
         aside
 --------------------*/
-
 .side-bar {
     background-color: black;
     border-radius: 10px;
@@ -107,9 +100,10 @@ body {
 .side-button {
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 700;
     background-color: white;
-    padding: 15px 25px;
+    padding: 15px 20px;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
@@ -120,7 +114,6 @@ body {
     color: white;
     font-size: 15px;
     background-color: rgb(199, 65, 8);
-
 }
 
 /*------------------
@@ -139,7 +132,6 @@ body {
     border: 1px solid rgb(236, 228, 228);
     border-radius: 15px;
     height: 309px;
-
 }
 
 .article-image {
@@ -159,6 +151,7 @@ body {
 
 .article-details {
     margin-left: 15px;
+    font-size: 15px;
 }
 
 .article-info {
@@ -167,10 +160,13 @@ body {
     gap: 20px;
     padding: 15px;
     color: rgb(144, 141, 141);
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 .flags-article {
     background-color: white;
+    border: 1px solid rgb(236, 228, 228);
     border-radius: 15px;
     height: 180px;
     display: grid;
